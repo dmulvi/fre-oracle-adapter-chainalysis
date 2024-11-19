@@ -14,7 +14,10 @@ With your env variables set you can run `source .env` in your terminal to make t
 
 ### Deploy an adapter contract
 
-There is a copy of the adapter contract that you can use deployed to Base Sepolia here: https://sepolia.basescan.org/address/0x0ca356125687237bC1FB547a3BCb2F6b73d0093f
+There is a copy of the adapter contract that you can use deployed to Base Sepolia and Polygon Amoy:
+
+https://sepolia.basescan.org/address/0x0ca356125687237bC1FB547a3BCb2F6b73d0093f#code
+https://amoy.polygonscan.com/address/0xeba08ec85e349a915ff827b1ab5ac87304946a0c#code
 
 You can use the adapter to connect to a mainnet version of the Chainalysis contract by setting the `SANCTIONS_LIST_ADDRESS` value in your `.env` file to the appropriate address. You can find details about supported networks and addresses on this page: https://go.chainalysis.com/chainalysis-oracle-docs.html
 
